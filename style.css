@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #2713dcf4;
     text-align: center;
 }
 
@@ -10,6 +10,12 @@ button {
 
 h2 {
     margin-bottom: 10px;
+    color: white;
+}
+
+#introText{
+    color: white;
+    font-size: 16px;
 }
 
 .btn {
@@ -20,7 +26,7 @@ h2 {
 }
 
 input {
-    width: 100%;
+    width: 80%;
     padding: 5px 14px;
     border: 2px solid #201f1d;
     margin-bottom: 10px;
@@ -53,6 +59,11 @@ form p:nth-child(1){
 .panel {
     margin-top: 20px;
     float: none;
+}
+
+#results{
+    margin-top: 10px;
+    color: #f9f6f6;
 }
 
 @media (min-width: 768px) {
